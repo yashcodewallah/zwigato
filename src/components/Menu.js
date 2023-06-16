@@ -29,7 +29,8 @@ const dispatch=useDispatch();
               onClick={()=>dispatch(cartActions.addItem({
                 id:product.id,
                 title:product.title,
-                price:product.price
+                price:product.price,
+                image:product.image01
               }))}
               >
                 Add to cart

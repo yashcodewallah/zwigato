@@ -8,10 +8,10 @@ const total=useSelector(state=>state.cart.total);
 const dispatch=useDispatch()
 
 const CartItems=()=>{
-   return  <>
+   return  <div>
     {cart.map((product,ind)=>{
     return <div key={ind} className='flex justify-between items-center'>
-     <img src="/images/hamburger.png" className=' w-7'></img>
+     <img src={product.image} className=' w-10'></img>
      <div className='flex flex-col items-center'>
      <h3 className='font-semibold text-center w-full'>{product.title}</h3>
      <div className='flex w-24 justify-between items-center'>
@@ -27,7 +27,7 @@ const CartItems=()=>{
      <button onClick={()=>dispatch(cartActions.removeItem(product))}><img src="/images/redError.png" alt="" className='w-8'/></button>
 </div>
    })}
-    </>
+    </div>
 }
 
 

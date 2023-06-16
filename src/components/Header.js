@@ -10,10 +10,10 @@ function header() {
       <p className=' md:text-4xl text-rock'><span className='text-3xl md:text-5xl font-rock text-red-500'>we're just a </span> few taps away.</p>
       <p className=' text-3xl mt-18'>Order now  <span className='text-red-600'>and</span>  satisfy your cravings</p>
       <div className='flex justify-center md:justify-start gap-10 mt-5 text-lg  font-serif'>
-        <Link to="/food" className=' bg-red-600 text-white py-2 px-5 duration-300 hover:text-red-600 hover:bg-white hover:border-red-600 hover:border-2'>
+        <Link to="/foods" className=' bg-red-600 text-white py-2 px-5 duration-300 hover:text-red-600 hover:bg-white hover:border-red-600 hover:border-2'>
           Order now
         </Link>
-        <Link to="/food" className=' bg-white text-red-600 py-2 px-5 border-red-600  border-2' >
+        <Link to="/foods" className=' bg-white text-red-600 py-2 px-5 border-red-600  border-2' >
           See all Foods
         </Link>
       </div>
