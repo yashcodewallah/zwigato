@@ -11,7 +11,9 @@ module.exports = {
         nav:"#FCFCFC",
         cardbg:"#FDE4E4",
         blueShade:"#212245",
-        back:"#FCFCFC"
+        back:"#FCFCFC",
+        cartbg:"rgba(0,0,0,0.8)",
+
       }
     },
 
